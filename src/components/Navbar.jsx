@@ -1,7 +1,7 @@
 import React from 'react'
 const Navbar = () => {
   return (
-    <div className='navbar container' >
+    <div className='navbar'>
         <a href="" id="brand">Flavors of Lyon</a>
         <div className="menu">
             <p>Restaurant</p>
