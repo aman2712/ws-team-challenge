@@ -1,11 +1,16 @@
 import React from 'react'
 
-const main = () => {
+const Main = () => {
   return (
-    <div>
-        
+    <div className='container' >
+        <div className="main-section">
+            <div className="input">
+                <input type="text" placeholder='Start typing to search... ' />
+                <i className="fa-solid fa-microphone"></i>
+            </div>
+        </div>
     </div>
   )
 }
 
-export default main
+export default Main

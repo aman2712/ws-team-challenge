@@ -1,11 +1,15 @@
 import React from 'react'
-
 const Navbar = () => {
   return (
     <div className='navbar container' >
-        <a href="" id="brand">Lyon</a>
+        <a href="" id="brand">Flavors of Lyon</a>
         <div className="menu">
-            
+            <p>Restaurant</p>
+            <p>Services</p>
+            <p>Contact</p>
+            <p>
+            <i className="fa-solid fa-magnifying-glass"></i>
+            </p>
         </div>
     </div>
   )
