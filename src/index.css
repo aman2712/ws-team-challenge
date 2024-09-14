@@ -1,0 +1,48 @@
+.section-imnage{
+    aspect-ratio: 16/9;
+    margin-top: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.single-page{
+    background-color:#f2f2f2 ;
+}
+
+.infos{
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.infos > *{
+    padding: 20px;
+    flex: 1;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    border: 1px solid  #f0f0f0;
+}
+
+.detail{
+    margin-block: 1.5rem;
+}
+
+.detail h2 {
+    font-size: 1.1rem;
+    font-weight: 800;
+}

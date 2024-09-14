@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Main from './pages/main'
+import Single from './pages/Single'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path='/' element={<Main/>} />
+        <Route path='/single' element={<Single/>} />
       </Routes>
     </>
   )
